@@ -1,0 +1,2 @@
+@media only screen and (max-width: 300px){body{background-color:red}body #mm,body #lar{display:none}}@media only screen and (min-width: 300px) and (max-width: 768px){body{background-color:green}body #sm,body #lar{display:none}body #small{float:left;width:66.7%}body #medium{float:left;width:33%}}@media only screen and (min-width: 768px){body{background-color:blue}body #sm,body #mm{display:none}body #small,body #medium,body #large{border:1px solid black;float:left;text-align:center;width:33%}}
+/*# sourceMappingURL=min.css.map */

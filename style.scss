@@ -18,9 +18,11 @@
       display: none;
     }
     #small{
+      float: left;
       width: 66.7%;
     }
     #medium{
+      float: left;
       width: 33%;
     }
     background-color: green;
@@ -34,8 +36,10 @@
     }
 
     #small, #medium, #large{
-      width: 300px;
-      display: inline-block;
+      border: 1px solid black;
+      float: left;
+      text-align: center;
+      width: 33%;
     }
     background-color: blue;
   }

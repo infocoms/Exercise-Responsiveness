@@ -9,8 +9,10 @@
     body #sm, body #lar {
       display: none; }
     body #small {
+      float: left;
       width: 66.7%; }
     body #medium {
+      float: left;
       width: 33%; } }
 @media only screen and (min-width: 768px) {
   body {
@@ -18,7 +20,9 @@
     body #sm, body #mm {
       display: none; }
     body #small, body #medium, body #large {
-      width: 300px;
-      display: inline-block; } }
+      border: 1px solid black;
+      float: left;
+      text-align: center;
+      width: 33%; } }
 
 /*# sourceMappingURL=style.css.map */
