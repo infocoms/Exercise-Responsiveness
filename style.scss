@@ -1,12 +1,9 @@
-
-
-
-
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 300px) {
   body {
-     #mm, #lar{
+    #mm, #lar {
       display: none;
     }
+
     background-color: red;
   }
 }
@@ -14,33 +11,48 @@
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
   body {
-    #sm, #lar{
+    #sm, #lar {
       display: none;
     }
-    #small{
+
+    #small {
       float: left;
       width: 66.7%;
     }
-    #medium{
+
+    #medium {
       float: left;
       width: 33%;
     }
+
     background-color: green;
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   body {
-    #sm, #mm{
+    #sm, #mm {
       display: none;
     }
 
-    #small, #medium, #large{
+    #small, #medium, #large {
       border: 1px solid black;
       float: left;
       text-align: center;
       width: 33%;
     }
+
     background-color: blue;
   }
+}
+
+#large p {
+  font-size: 25px;
+}
+
+#medium p {
+  font-size: 20px;
+}
+#small p {
+  font-size: 15px;
 }
