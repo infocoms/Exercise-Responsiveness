@@ -1,0 +1,42 @@
+
+
+
+
+@media only screen and (max-width: 300px){
+  body {
+     #mm, #lar{
+      display: none;
+    }
+    background-color: red;
+  }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    #sm, #lar{
+      display: none;
+    }
+    #small{
+      width: 66.7%;
+    }
+    #medium{
+      width: 33%;
+    }
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    #sm, #mm{
+      display: none;
+    }
+
+    #small, #medium, #large{
+      width: 300px;
+      display: inline-block;
+    }
+    background-color: blue;
+  }
+}
